@@ -1,0 +1,17 @@
+	/projectnb/bioinfor/myousry/miniconda3/envs/herpesvirus/bin/STAR-avx2 --runThreadN 12 --runMode genomeGenerate --genomeDir ../genomes/human/STAR_index --genomeFastaFiles ../genomes/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa --sjdbGTFfile ../genomes/human/Homo_sapiens.GRCh38.110.gtf --sjdbOverhang 100
+	STAR version: 2.7.11b   compiled: 2025-01-09T12:32:06+0000 :/opt/conda/conda-bld/star_1736425784849/work/source
+Apr 02 21:57:34 ..... started STAR run
+Apr 02 21:57:34 ... starting to generate Genome files
+Apr 02 21:58:18 ..... processing annotations GTF
+Apr 02 21:58:47 ... starting to sort Suffix Array. This may take a long time...
+Apr 02 21:59:04 ... sorting Suffix Array chunks and saving them to disk...
+Apr 02 22:28:20 ... loading chunks from disk, packing SA...
+Apr 02 22:29:34 ... finished generating suffix array
+Apr 02 22:29:34 ... generating Suffix Array index
+Apr 02 22:33:27 ... completed Suffix Array index
+Apr 02 22:33:27 ..... inserting junctions into the genome indices
+Apr 02 22:36:53 ... writing Genome to disk ...
+Apr 02 22:36:58 ... writing Suffix Array to disk ...
+Apr 02 22:37:28 ... writing SAindex to disk
+Apr 02 22:37:32 ..... finished successfully
+STAR index build finished.
