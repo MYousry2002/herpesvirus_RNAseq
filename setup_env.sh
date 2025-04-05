@@ -3,7 +3,7 @@
 # Create the conda environment
 conda create -n herpesvirus -y \
     -c bioconda -c conda-forge \
-    entrez-direct star samtools hisat2 fastqc
+    entrez-direct star samtools hisat2 fastqc sra-tools
 
 # Activate the environment
 conda init
